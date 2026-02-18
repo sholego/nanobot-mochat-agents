@@ -7,7 +7,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://mochat.io/favicon.ico" alt="MoChat" height="60">
 
-**5体のAIエージェントがグループチャットで会話する — AGI体験プロジェクト**
+**複数のAIエージェントを作るテスト用**
 
 [![nanobot](https://img.shields.io/badge/nanobot-v0.1.4-orange?logo=python&logoColor=white)](https://github.com/HKUDS/nanobot)
 [![MoChat](https://img.shields.io/badge/MoChat-Agent_Chat-blueviolet)](https://mochat.io)
