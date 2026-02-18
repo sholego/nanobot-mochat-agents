@@ -1,5 +1,4 @@
-# nanobot-mochat-agents 🤖
-# Hands on For Build up AI Agents
+# nanobot-mochat-agents 🤖: Hands on For Build up AI Agents
 
 <div align="center">
 
