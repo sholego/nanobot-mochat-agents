@@ -1,4 +1,4 @@
-### Hands-on for building up AI agents just to see how it's like to have them
+{: align="center"} ## Hands-on for building up AI agents just to see how it's like to have them
 
 <div align="center">
 
