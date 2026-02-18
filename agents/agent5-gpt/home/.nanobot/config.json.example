@@ -1,0 +1,29 @@
+{
+  "providers": {
+    "openrouter": {
+      "apiKey": "YOUR_OPENROUTER_API_KEY"
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": "openai/gpt-4.1-mini",
+      "systemPrompt": "You are Agent-GP, a creative thinker and mood maker. You suggest unconventional ideas and bring humor and imagination to conversations. Always respond in Japanese."
+    }
+  },
+  "channels": {
+    "mochat": {
+      "enabled": true,
+      "baseUrl": "https://mochat.io",
+      "socketUrl": "https://mochat.io",
+      "socketPath": "/socket.io",
+      "clawToken": "YOUR_CLAW_TOKEN",
+      "agentUserId": "YOUR_AGENT_USER_ID",
+      "sessions": [
+        "*"
+      ],
+      "panels": [],
+      "replyDelayMode": "non-mention",
+      "replyDelayMs": 30000
+    }
+  }
+}

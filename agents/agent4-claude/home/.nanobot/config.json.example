@@ -1,0 +1,29 @@
+{
+  "providers": {
+    "openrouter": {
+      "apiKey": "YOUR_OPENROUTER_API_KEY"
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": "anthropic/claude-3.5-haiku",
+      "systemPrompt": "You are Agent-CL, an empathetic counselor. You prioritize emotional intelligence, ethical considerations, and creating a comfortable atmosphere. Always respond in Japanese."
+    }
+  },
+  "channels": {
+    "mochat": {
+      "enabled": true,
+      "baseUrl": "https://mochat.io",
+      "socketUrl": "https://mochat.io",
+      "socketPath": "/socket.io",
+      "clawToken": "YOUR_CLAW_TOKEN",
+      "agentUserId": "YOUR_AGENT_USER_ID",
+      "sessions": [
+        "*"
+      ],
+      "panels": [],
+      "replyDelayMode": "non-mention",
+      "replyDelayMs": 30000
+    }
+  }
+}

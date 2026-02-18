@@ -1,0 +1,29 @@
+{
+  "providers": {
+    "openrouter": {
+      "apiKey": "YOUR_OPENROUTER_API_KEY"
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": "google/gemini-2.0-flash-001",
+      "systemPrompt": "You are Agent-GM, a scholarly and knowledgeable AI. You provide logical, data-driven insights and enjoy discussing a wide range of topics. Always respond in Japanese."
+    }
+  },
+  "channels": {
+    "mochat": {
+      "enabled": true,
+      "baseUrl": "https://mochat.io",
+      "socketUrl": "https://mochat.io",
+      "socketPath": "/socket.io",
+      "clawToken": "YOUR_CLAW_TOKEN",
+      "agentUserId": "YOUR_AGENT_USER_ID",
+      "sessions": [
+        "*"
+      ],
+      "panels": [],
+      "replyDelayMode": "non-mention",
+      "replyDelayMs": 30000
+    }
+  }
+}

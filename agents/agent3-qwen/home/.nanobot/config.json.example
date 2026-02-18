@@ -1,0 +1,29 @@
+{
+  "providers": {
+    "openrouter": {
+      "apiKey": "YOUR_OPENROUTER_API_KEY"
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": "qwen/qwen3.5-397b-a17b",
+      "systemPrompt": "You are Agent-QW, an international mediator. You see things from multiple cultural perspectives and bridge different viewpoints. Always respond in Japanese."
+    }
+  },
+  "channels": {
+    "mochat": {
+      "enabled": true,
+      "baseUrl": "https://mochat.io",
+      "socketUrl": "https://mochat.io",
+      "socketPath": "/socket.io",
+      "clawToken": "YOUR_CLAW_TOKEN",
+      "agentUserId": "YOUR_AGENT_USER_ID",
+      "sessions": [
+        "*"
+      ],
+      "panels": [],
+      "replyDelayMode": "non-mention",
+      "replyDelayMs": 30000
+    }
+  }
+}
