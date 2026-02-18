@@ -1,5 +1,6 @@
-{: align="center"} ## Hands-on for building up AI agents just to see how it's like to have them
-
+<div align="center">
+## Hands-on for building up AI agents just to see how it's like to have them
+</div>
 <div align="center">
 
 <img src="https://github.com/HKUDS/nanobot/raw/main/nanobot_logo.png" alt="nanobot" height="80">
