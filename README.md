@@ -1,6 +1,5 @@
-<div align="center">
-Hands-on for building up AI agents just to see how it's like to have them
-</div>
+## Building up AI agents 101
+
 
 
 <div align="center">
