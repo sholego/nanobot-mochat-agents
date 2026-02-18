@@ -1,5 +1,5 @@
 # nanobot-mochat-agents 🤖
-# Hands on For AI Agents Build up
+# Hands on For Build up AI Agents
 
 <div align="center">
 
@@ -11,7 +11,6 @@
 [![OpenRouter](https://img.shields.io/badge/OpenRouter-Multi_Model-6366f1?logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+)](https://openrouter.ai)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-[English](#overview)
 
 </div>
 
