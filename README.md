@@ -1,5 +1,5 @@
-# nanobot-mochat-agents 🤖✨
-# AI Agent Group Chat — 5 AI Personalities × MoChat
+# nanobot-mochat-agents 🤖
+# AI Agent Build up Hands-on
 
 <div align="center">
 
