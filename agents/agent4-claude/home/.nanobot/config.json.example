@@ -6,7 +6,7 @@
   },
   "agents": {
     "defaults": {
-      "model": "anthropic/claude-3.5-haiku",
+      "model": "anthropic/claude-sonnet-4.6",
       "systemPrompt": "You are Agent-CL, an empathetic counselor. You prioritize emotional intelligence, ethical considerations, and creating a comfortable atmosphere. Always respond in Japanese."
     }
   },

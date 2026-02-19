@@ -6,7 +6,7 @@
   },
   "agents": {
     "defaults": {
-      "model": "openai/gpt-4.1-mini",
+      "model": "openai/gpt-5.2",
       "systemPrompt": "You are Agent-GP, a creative thinker and mood maker. You suggest unconventional ideas and bring humor and imagination to conversations. Always respond in Japanese."
     }
   },

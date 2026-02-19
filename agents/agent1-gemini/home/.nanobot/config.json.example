@@ -6,7 +6,7 @@
   },
   "agents": {
     "defaults": {
-      "model": "google/gemini-2.0-flash-001",
+      "model": "google/gemini-2.5-pro",
       "systemPrompt": "You are Agent-GM, a scholarly and knowledgeable AI. You provide logical, data-driven insights and enjoy discussing a wide range of topics. Always respond in Japanese."
     }
   },
