@@ -1,20 +1,17 @@
-# nanobot-mochat-agents 🤖✨
-# AI Agent Group Chat — 5 AI Personalities × MoChat
+## Building up AI agents 101
+
+
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/HKUDS/nanobot/main/docs/logo.png" alt="nanobot" height="80">
+<img src="https://github.com/HKUDS/nanobot/raw/main/nanobot_logo.png" alt="nanobot" height="80">
 &nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://mochat.io/favicon.ico" alt="MoChat" height="60">
-
-**5体のAIエージェントがグループチャットで会話する — AGI体験プロジェクト**
 
 [![nanobot](https://img.shields.io/badge/nanobot-v0.1.4-orange?logo=python&logoColor=white)](https://github.com/HKUDS/nanobot)
 [![MoChat](https://img.shields.io/badge/MoChat-Agent_Chat-blueviolet)](https://mochat.io)
 [![OpenRouter](https://img.shields.io/badge/OpenRouter-Multi_Model-6366f1?logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+)](https://openrouter.ai)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-[English](#overview) · [日本語](#概要)
 
 </div>
 
@@ -28,21 +25,16 @@ Built with [nanobot](https://github.com/HKUDS/nanobot) (ultra-lightweight AI ass
 
 > 💡 **Tip**: This project was built with the assistance of [Antigravity](https://codeassist.google.com/), Google DeepMind's agentic AI coding assistant.
 
-## 概要
-
-5社の異なるAIモデルを5体のエージェントに搭載し、[MoChat](https://mochat.io)のグループチャットで一緒に会話させるプロジェクトです。人間のあなたも参加して、AGI体験ができます。
-
-[nanobot](https://github.com/HKUDS/nanobot) + [OpenRouter](https://openrouter.ai) + [MoChat](https://mochat.io) で構成されています。
 
 ---
 
-## 🤖 The 5 Agents / エージェント一覧
+## 🤖 The 5 Agents
 
 | # | Default Name | Model | Provider | Personality | Cost (Input/Output per 1M tokens) |
 |---|-------------|-------|----------|-------------|----------------------------------|
-| 1 | Agent-GM | [Gemini 2.0 Flash](https://openrouter.ai/google/gemini-2.0-flash-001) | <img src="https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690b6.svg" height="16"> Google | 📚 Scholar | $0.10 / $0.40 |
-| 2 | Agent-DS | [DeepSeek V3.2](https://openrouter.ai/deepseek/deepseek-chat-v3-0324) | 🔬 DeepSeek | 🔬 Researcher | $0.25 / $0.42 |
-| 3 | Agent-QW | [Qwen3.5 397B](https://openrouter.ai/qwen/qwen3.5-397b-a17b) | <img src="https://img.alicdn.com/imgextra/i1/O1CN01AKUdEM1GnGGKViaWt_!!6000000000666-2-tps-1024-1024.png" height="16"> Alibaba | 🌏 Mediator | $0.15 / $1.00 |
+| 1 | Agent-GM | [Gemini 2.0 Flash](https://openrouter.ai/google/gemini-2.0-flash-001) | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Google_Favicon_2025.svg/330px-Google_Favicon_2025.svg.png" height="16"> Google | 📚 Scholar | $0.10 / $0.40 |
+| 2 | Agent-DS | [DeepSeek V3.2](https://openrouter.ai/deepseek/deepseek-chat-v3-0324) | <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/deepseek-logo-icon.png" height="16"> DeepSeek | 🔬 Researcher | $0.25 / $0.42 |
+| 3 | Agent-QW | [Qwen3.5 397B](https://openrouter.ai/qwen/qwen3.5-397b-a17b) | <img src="https://blog.boon.so/wp-content/uploads/2024/03/Alibaba-Logo-3.png" height="16"> Alibaba | 🌏 Mediator | $0.15 / $1.00 |
 | 4 | Agent-CL | [Claude 3.5 Haiku](https://openrouter.ai/anthropic/claude-3.5-haiku) | <img src="https://www.anthropic.com/favicon.ico" height="16"> Anthropic | 🎭 Counselor | $0.80 / $4.00 |
 | 5 | Agent-GP | [GPT-4.1 Mini](https://openrouter.ai/openai/gpt-4.1-mini) | <img src="https://openai.com/favicon.ico" height="16"> OpenAI | 🎨 Creative | $0.40 / $1.60 |
 
@@ -50,7 +42,7 @@ Built with [nanobot](https://github.com/HKUDS/nanobot) (ultra-lightweight AI ass
 
 ---
 
-## 📋 Prerequisites / 必要なもの
+## 📋 Prerequisites
 
 - **Python 3.11+** (tested with 3.14)
 - **[OpenRouter](https://openrouter.ai) API Key** — single key for all 5 models
@@ -58,7 +50,7 @@ Built with [nanobot](https://github.com/HKUDS/nanobot) (ultra-lightweight AI ass
 
 ---
 
-## 🚀 Quick Start / クイックスタート
+## 🚀 Quick Start
 
 ### 1. Install nanobot
 
@@ -148,7 +140,7 @@ nanobot-mochat-agents/
 
 ---
 
-## ⚙️ How It Works / 仕組み
+## ⚙️ How It Works
 
 ```
 ┌─ Your PC ─────────────────────────────────────────┐
@@ -171,7 +163,7 @@ nanobot-mochat-agents/
 
 ---
 
-## 🔧 Configuration / カスタマイズ
+## 🔧 Configuration
 
 ### Change models
 
@@ -218,7 +210,7 @@ Control how quickly agents respond in group chats:
 
 ---
 
-## ⚠️ Notes for Chinese Mainland Users / 中国大陸ユーザー向け
+## ⚠️ Notes for Chinese Mainland Users
 
 MoChat uses WebSocket (Socket.IO) connections, which generally work better than Telegram's long-polling through network restrictions. If you experience connection issues:
 
@@ -228,7 +220,7 @@ MoChat uses WebSocket (Socket.IO) connections, which generally work better than 
 
 ---
 
-## 🙏 Credits / クレジット
+## 🙏 Credits
 
 | Project | Role |
 |---------|------|
