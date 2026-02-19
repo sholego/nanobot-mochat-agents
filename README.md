@@ -109,6 +109,8 @@ Open 5 separate terminal windows and run each agent:
 
 # Terminal 5
 .\scripts\launch-agent.ps1 -AgentName agent5-gpt
+
+# You can add other models like KIMI or Grok as you want of course!!
 ```
 
 Each terminal should show `Mochat websocket connected` ✅
