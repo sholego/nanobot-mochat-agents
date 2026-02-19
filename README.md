@@ -129,11 +129,11 @@ nanobot-mochat-agents/
 ├── LICENSE
 ├── .gitignore
 ├── agents/
-│   ├── agent1-gemini/home/.nanobot/config.json    # Gemini 2.0 Flash
-│   ├── agent2-deepseek/home/.nanobot/config.json  # DeepSeek V3.2
+│   ├── agent1-gemini/home/.nanobot/config.json    # Gemini 2.5 Pro
+│   ├── agent2-deepseek/home/.nanobot/config.json  # DeepSeek V4
 │   ├── agent3-qwen/home/.nanobot/config.json      # Qwen3.5 397B
-│   ├── agent4-claude/home/.nanobot/config.json     # Claude 3.5 Haiku
-│   └── agent5-gpt/home/.nanobot/config.json       # GPT-4.1 Mini
+│   ├── agent4-claude/home/.nanobot/config.json     # Claude Sonnet 4.6
+│   └── agent5-gpt/home/.nanobot/config.json       # GPT-5.2
 └── scripts/
     ├── set_apikey.py         # Set OpenRouter API key for all agents
     ├── register_mochat.py    # Register & bind agents on MoChat
