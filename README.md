@@ -36,7 +36,7 @@ Built with [nanobot](https://github.com/HKUDS/nanobot) (ultra-lightweight AI ass
 | 2 | Agent-DS | [DeepSeek V4](https://openrouter.ai/deepseek/deepseek-v4) | <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/deepseek-logo-icon.png" height="16"> DeepSeek | 🔬 Researcher |
 | 3 | Agent-QW | [Qwen3.5 397B](https://openrouter.ai/qwen/qwen3.5-397b-a17b) | <img src="https://blog.boon.so/wp-content/uploads/2024/03/Alibaba-Logo-3.png" height="16"> Alibaba | 🌏 Mediator |
 | 4 | Agent-CL | [Claude Sonnet 4.6](https://openrouter.ai/anthropic/claude-sonnet-4.6) | <img src="https://www.anthropic.com/favicon.ico" height="16"> Anthropic | 🎭 Counselor |
-| 5 | Agent-GP | [GPT-5.2](https://openrouter.ai/openai/gpt-5.2) | <img src="https://openai.com/favicon.ico" height="16"> OpenAI | 🎨 Creative |
+| 5 | Agent-GP | [GPT-5.2](https://openrouter.ai/openai/gpt-5.2) | <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk6jm8ppO_0i6_E4vkdcWv8Lw1W56RyS8mag&s" height="16"> OpenAI | 🎨 Creative |
 
 > 🚀 **Flagship models**: Each agent runs on its provider's latest and most capable model, showcasing the diversity of today's AI landscape.
 
